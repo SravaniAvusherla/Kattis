@@ -8,7 +8,7 @@ int main() {
     string l;
     cin >> l;
     
-    string input = string(1, l[0]);
+    string output = string(1, l[0]);
     
     for (int i =1; i < l.size() -1; i++) 
     {
@@ -17,5 +17,5 @@ int main() {
         }
     }
     
-     cout << input ;
+     cout << output ;
    }
